@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Karla&family=Lexend+Deca&family=Montserrat:wght@300&family=Oswald&family=Overpass:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.big-card {
+  position: relative;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  /* z-index: 0; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100vh;
+}
+.card {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid transparent;
+  height: 44em;
+  width: 28em;
+  position: absolute;
+  top: 2.5em;
+  left: 25em;
+  background-color: whitesmoke;
+  border-radius: 1em;
+}
+.image {
+  position: absolute;
+  top: -1em;
+}
+.image img {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+.summary {
+  margin-top: 8em;
+  margin-bottom: 2em;
+}
+.summary h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+  margin-bottom: 0.6em;
+  margin-top: 2em;
+  font-weight: 700;
+}
+.summary p {
+  font-family: "Red Hat Display", sans-serif;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  font-size: 16px;
+}
+.price-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+  width: 20em;
+  height: 5em;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1em;
+}
+.price-card h3 {
+  position: relative;
+  font-weight: 500;
+  top: -0.6em;
+  font-family: "Red Hat Display", sans-serif;
+  left: 0.65em;
+}
+.price-card p {
+  position: relative;
+  font-family: "Red Hat Display", sans-serif;
+  top: 1.1em;
+  right: 5.5em;
+  color: hsl(224, 23%, 55%);
+}
+.price-card a {
+  color: hsl(245, 75%, 52%);
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn1 {
+  background-color: hsl(245, 75%, 52%);
+  width: 22em;
+  color: white;
+  box-shadow: 0em 0.8em 1em 2px hsl(224, 23%, 55%);
+  height: 3em;
+  border-radius: 1em;
+  border: none;
+  font-family: "Red Hat Display", sans-serif;
+  cursor: pointer;
+  font-weight: 700;
+  /* margin-bottom: 2.5em; */
+  margin-top: 1.5em;
+}
+.btn2 {
+  margin-top: 2em;
+  background-color: transparent;
+  color: hsl(224, 23%, 55%);
+  width: 22em;
+  /* color: white; */
+  /* box-shadow: 0em 0.8em 1em 2px rgba(0, 0, 0, 0.413); */
+  height: 3em;
+  border-radius: 1em;
+  border: none;
+  font-family: "Red Hat Display", sans-serif;
+  cursor: pointer;
+}
